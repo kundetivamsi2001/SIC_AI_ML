@@ -1,0 +1,15 @@
+reviews = [
+    "The dress fits perfectly and the size is comfortable.",
+    "The jeans fit really well and are very comfortable to wear.",
+    "The shirt fabric is soft and the material feels high quality.",
+    "I love the soft fabric and excellent quality of this dress.",
+    "My order arrived late and the delivery was disappointing.",
+    "The package arrived damaged and shipping took too long.",
+    "The color is beautiful and looks exactly like the picture.",
+    "I love the beautiful color and the design looks amazing.",
+    "The price is reasonable and the product is good value for money.",
+    "The product is affordable and the price is worth the quality."
+]
+
+df = pd.DataFrame({"review": reviews})
+df
